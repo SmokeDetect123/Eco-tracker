@@ -2,7 +2,7 @@
   "name": "eco-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SmokeDetect123.github.io/Eco-Tracker",
+  "homepage": "https://smokedetect123.github.io/Eco-Tracker",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.3.1",
