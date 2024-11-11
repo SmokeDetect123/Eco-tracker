@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5fff5; /* Light green-white background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #004d00; /* Dark green for headings */
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  color: #004d00;
+}
+
+/* Container styling */
+div {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Button Styling */
+button {
+  background-color: #008000; /* Pure green */
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004d00; /* Darker green on hover */
+}
+
+/* Positive and Negative Action Sections */
+h2 {
+  border-bottom: 2px solid #004d00;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+div > span {
+  font-size: 1em;
+  color: #004d00;
+}
+
+/* Positive Action List */
+h2:first-of-type {
+  color: #006600; /* Slightly lighter green for positive section */
+}
+
+h2:nth-of-type(2) {
+  color: #990000; /* Dark red for negative section */
+}
+
+/* Impact Summary */
+#impact-summary {
+  border: 2px solid #004d00;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+#impact-summary p {
+  font-weight: bold;
+}
+
+#impact-summary p span {
+  font-size: 1.2em;
+}
+
+/* Colored Messages */
+p[style*="color: green"] {
+  background-color: #ccffcc; /* Light green for positive impact */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+p[style*="color: orange"] {
+  background-color: #ffedcc; /* Light orange for moderate impact */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+p[style*="color: red"] {
+  background-color: #ffcccc; /* Light red for negative impact */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Action Item Styling */
+div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+div > div:last-child {
+  border-bottom: none;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* General background color */
+body {
+  background-color: #f5fff0; /* Light green background */
+}

@@ -1,0 +1,223 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Styling */
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px #2c2c2c;
+}
+
+/* Main Container */
+.eco-tracker-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Section Titles */
+.eco-tracker-container h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/* Positive and Negative Actions List */
+.action-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.action-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    background-color: #eaffea;
+}
+
+.action-list div span {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.action-list button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.action-list button:hover {
+    background-color: #218838;
+}
+
+/* Impact Summary Styling */
+.impact-summary {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #eaffea;
+    border: 1px solid #28a745;
+    border-radius: 8px;
+}
+
+.impact-summary p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.impact-summary .total-co2-reduction {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.impact-summary .environmental-impact {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Highlighting Impact Message Colors */
+.impact-summary .environmental-impact.green {
+    color: #28a745;
+}
+
+.impact-summary .environmental-impact.orange {
+    color: #ff9800;
+}
+
+.impact-summary .environmental-impact.red {
+    color: #f44336;
+}
+
+/* Clear Button */
+.clear-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.clear-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Action Styling */
+.action-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.action-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+.action-item .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.action-item .delete-button:hover {
+    background-color: #d32f2f;
+}
+.actions-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the two sections */
+    margin-top: 20px;
+  }
+  .action-box {
+    width: 45%; /* Ensure each section takes up 45% of the container */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .positive-actions, .negative-actions {
+    width: 45%;  /* Ensure each takes 45% width of the container */
+    padding: 15px;  /* Added more padding for better separation */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* Align the items in a column */
+    gap: 15px; /* Added gap between individual actions */
+  }
+  
+  .positive-actions h2 {
+    color: #4CAF50; /* Green for positive actions */
+  }
+  
+  .negative-actions h2 {
+    color: #FF6347; /* Red for negative actions */
+  }
+
+  .action-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+  }
+  
+  .action-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .action-item button:hover {
+    background-color: #218838;
+  }
+  
